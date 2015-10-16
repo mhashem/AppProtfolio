@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/my_nano_degree"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/spotifyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20sp"
+            android:padding="16dp"
+            android:text="@string/spotify_app" />
+
+        <Button
+            android:id="@+id/scoresBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spotifyBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20sp"
+            android:padding="16dp"
+            android:text="@string/scores_app" />
+
+
+        <Button
+            android:id="@+id/libraryAppBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scoresBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20sp"
+            android:padding="16dp"
+            android:text="@string/library_app" />
+
+
+        <Button
+            android:id="@+id/buildItBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/libraryAppBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20sp"
+            android:padding="16dp"
+            android:text="@string/build_it_bigger" />
+
+        <Button
+            android:id="@+id/xyzBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buildItBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20sp"
+            android:padding="16dp"
+            android:text="@string/xyz_reader" />
+
+        <Button
+            android:id="@+id/capstoneApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xyzBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20sp"
+            android:padding="16dp"
+            android:text="@string/my_own_app" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
